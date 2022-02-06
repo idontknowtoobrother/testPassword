@@ -29,3 +29,12 @@ const checkPassword = (password) => {
   checkDigit(password) &&
   checkSymbol(password)
 }
+
+module.exports = {
+  checkLength,
+  checkAlphabet,
+  checkDigit,
+  checkSymbol,
+  checkPassword
+}
+
